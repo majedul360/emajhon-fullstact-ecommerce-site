@@ -1,0 +1,28 @@
+.ordered-product {
+  display: flex;
+  align-items: center;
+  border: 0.1rem solid black;
+  padding: 1rem;
+  max-width: 50rem;
+  margin: 0 auto;
+  margin-bottom: 1rem;
+}
+
+.ordered-product img {
+  width: 5rem;
+}
+
+.ordered-product .content {
+  margin-left: 5rem;
+}
+
+.ordered-product .content p {
+  margin: 1rem 0;
+  font-size: 1.7rem;
+}
+
+.ordered-product .icon {
+  font-size: 2rem;
+  margin: 0 auto;
+  cursor: pointer;
+}

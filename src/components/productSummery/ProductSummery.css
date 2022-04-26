@@ -1,0 +1,31 @@
+.summery {
+  flex: 3;
+  padding-left: 2rem;
+  background: #ff9900;
+  height: 100vh;
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+
+.summery h3 {
+  font-size: 2rem;
+  margin: 3rem 0;
+}
+
+.summery p {
+  font-size: 2rem;
+  margin: 1rem 0;
+}
+
+.summery .link {
+  display: inline-block;
+  background: #15023a;
+  color: white;
+  padding: 1rem 2rem;
+  font-size: 1.7rem;
+  margin-top: 2rem;
+  border-radius: 0.5rem;
+}

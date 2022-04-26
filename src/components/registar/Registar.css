@@ -1,0 +1,71 @@
+.form-container {
+  min-height: calc(100vh - 7.5rem);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form-container .container {
+  width: 50rem;
+  background-color: bisque;
+  padding: 2rem;
+}
+
+.form-container .container h3,
+.option,
+.or {
+  text-align: center;
+}
+
+.form-container .container h3 {
+  font-size: 2.5rem;
+}
+
+.form-container .container form .input-group label {
+  font-size: 1.7rem;
+}
+
+.form-container .container form .input-group input {
+  width: 100%;
+  margin: 1rem 0;
+  padding: 1.2rem 1.4rem;
+  text-transform: none;
+}
+
+.form-container .container .btn {
+  width: 100%;
+  display: block;
+  font-size: 2rem;
+  padding: 0.8rem 0;
+  margin: 1rem 0;
+  background-color: darkslateblue;
+  color: white;
+}
+
+.form-container .container p {
+  font-size: 1.7rem;
+}
+
+.form-container .container .or {
+  position: relative;
+  z-index: 2;
+  margin: 0 4rem;
+  margin-top: 1rem;
+}
+
+.form-container .container .or::before {
+  position: absolute;
+  content: "";
+  top: 50%;
+  left: 0;
+  right: 0;
+  background: black;
+  width: 100%;
+  height: 0.1rem;
+  z-index: -1;
+}
+
+.form-container .container .or a {
+  background: bisque;
+  padding: 0 2rem;
+}

@@ -1,0 +1,46 @@
+.products {
+  display: flex;
+  padding: 2rem 9%;
+}
+
+.products .product-container {
+  flex: 9;
+  padding-right: 3rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2.5rem;
+}
+
+.summery .icon {
+  font-size: 2rem;
+}
+
+.pagination {
+  text-align: center;
+  padding: 3rem 0;
+}
+
+.pagination button {
+  padding: 0.5rem 1rem;
+  margin: 0 0.5rem;
+  font-size: 1.7rem;
+  background: none;
+  cursor: pointer;
+}
+
+.pagination button.active,
+.pagination .btn.active {
+  background-color: navy;
+  color: white;
+}
+
+@media (max-width: 450px) {
+  .products {
+    flex-direction: column-reverse;
+    padding: 2rem;
+  }
+
+  .product .product-container {
+    padding-right: 0;
+  }
+}
